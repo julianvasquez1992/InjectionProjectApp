@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<menu 
+  xmlns:android="http://schemas.android.com/apk/res/android" 
+  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+  <item 
+    android:id="@+id/StartButtom" 
+    android:enabled="true" 
+    android:icon="@drawable/accessible_black_24dp" 
+    android:title="@string/Accesible" 
+    app:showAsAction="ifRoom" />
+
+    <item 
+    android:id="@+id/ListButton" 
+    android:enabled="true" 
+    android:icon="@drawable/accessible_black_24dp" 
+    android:title="@string/Accesible" 
+    app:showAsAction="ifRoom" />
+
+  <item 
+    android:id="@+id/ConnectBeaconsButton" 
+    android:enabled="true" 
+    android:icon="@drawable/settings_bluetooth_black_24dp" 
+    android:title="@string/Connect" 
+    app:showAsAction="ifRoom" />
+  
+  <item 
+    android:id="@+id/SettingsButton" 
+    android:enabled="true" 
+    android:icon="@drawable/settings_white_24dp" 
+    android:title="@string/Configuration" 
+    app:showAsAction="ifRoom" />
+
+  
+</menu>

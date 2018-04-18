@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="Container.Injection.InjectContainer">
+  <!--suppress UsesMinSdkAttributes-->
+  <uses-sdk android:minSdkVersion="16" />
+  <uses-permission android:name="android.permission.BLUETOOTH" />
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+  <uses-permission android:name="android.permission.INTERNET" />
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <application android:allowBackup="true" android:icon="@drawable/icon" android:label="@string/app_name" android:name="md5d0a877ab9955a45c5528185bdeeddeb6.InjectionApplication" android:theme="@style/CustomTheme" android:debuggable="true">
+    <activity android:launchMode="singleTask" android:screenOrientation="portrait" android:name="md5ec05146fe5d8d808dfe4e01e77053df8.LoginActivity">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+        <category android:name="android.intent.category.LAUNCHER" />
+      </intent-filter>
+    </activity>
+    <activity android:alwaysRetainTaskState="true" android:screenOrientation="portrait" android:name="md5ec05146fe5d8d808dfe4e01e77053df8.MainActivity" />
+    <service android:name="md59f70a99687498e7ba187118950981d26.KeepAliveService" />
+    <activity android:label="Web Authenticator" android:name="md5719e249934bca077b67d8f77dc6da002.FormAuthenticatorActivity" />
+    <activity android:label="Web Authenticator" android:name="md5719e249934bca077b67d8f77dc6da002.WebAuthenticatorActivity" />
+    <activity android:label="@string/title_activity_webview" android:theme="@android:style/Theme.DeviceDefault" android:name="md5719e249934bca077b67d8f77dc6da002.WebViewActivity" />
+    <activity android:label="Web Authenticator Native Broswer" android:launchMode="singleTop" android:name="md5719e249934bca077b67d8f77dc6da002.WebAuthenticatorNativeBrowserActivity" />
+    <receiver android:name="md5719e249934bca077b67d8f77dc6da002.CustomTabsActionsBroadcastReceiver" />
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="Container.Injection.InjectContainer.mono.MonoRuntimeProvider.__mono_init__" />
+    <!--suppress ExportedReceiver-->
+    <receiver android:name="mono.android.Seppuku">
+      <intent-filter>
+        <action android:name="mono.android.intent.action.SEPPUKU" />
+        <category android:name="mono.android.intent.category.SEPPUKU.Container.Injection.InjectContainer" />
+      </intent-filter>
+    </receiver>
+    <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED" />
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+      </intent-filter>
+    </receiver>
+    <service android:name="org.altbeacon.beacon.service.BeaconService" android:enabled="true" android:exported="false" android:isolatedProcess="false" android:label="beacon" />
+    <service android:name="org.altbeacon.beacon.BeaconIntentProcessor" android:enabled="true" android:exported="false" />
+  </application>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+  <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+</manifest>
