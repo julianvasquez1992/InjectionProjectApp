@@ -38,6 +38,7 @@
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Unity.Abstractions.pdb
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Unity.Container.pdb
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Unity.ServiceLocation.pdb
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/Inject.csprojResolveAssemblyReference.cache
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/Inject.csproj.CoreCompileInputs.cache
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/Inject.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/Inject.pdb
@@ -101,7 +102,6 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/layout/listlayout.xml
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/R.cs.flag
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/uploadflags.txt
-/Users/julian/Projects/InjectContainer/Inject/obj/Debug/Inject.csprojResolveAssemblyReference.cache
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Mono.Android.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/linksrc/Inject.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/linksrc/CommonServiceLocator.pdb

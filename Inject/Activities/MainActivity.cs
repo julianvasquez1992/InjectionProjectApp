@@ -19,12 +19,19 @@ using Unity;
 using BottomNavigationBar.Listeners;
 using Inject.Fragments;
 using Xamarin.Auth;
+using ILoaderCallbacks = Android.Support.V4.App.LoaderManager.ILoaderCallbacks;
+using Inject.Loaders;
+using Android.Support.V4.App;
+using Android.Support.V4.Content;
+using Java.Lang;
+using Inject.Utitlities;
+using Inject.Test.Share.Entities;
 
 namespace Inject.Activities
 {
   [Activity(ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait,
            AlwaysRetainTaskState = true)]
-  public class MainActivity : AppCompatActivity, IOnMenuTabClickListener
+  public class MainActivity : AppCompatActivity, IOnMenuTabClickListener, ILoaderCallbacks
   {
     [Dependency]
     public ILogin Login { get; set; }
@@ -35,6 +42,11 @@ namespace Inject.Activities
     private SettingsFragment settingsFragment;
     private BeaconsFragment beaconsFragment;
     private Fragments.ListFragment listFragment;
+
+    private enum Loaders
+    {
+      ListLoader
+    }
 
     public static Intent NewIntent(Context caller)
     {
@@ -70,9 +82,11 @@ namespace Inject.Activities
       bottomBar.MapColorForTab(2, Android.Graphics.Color.ParseColor("#143A5E"));
       bottomBar.MapColorForTab(3, Android.Graphics.Color.ParseColor("#143A5E"));
 
+      SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this).ForceLoad();
+      //SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this);
     }
 
-    public void OnMenuTabSelected(int menuItemId)
+		public void OnMenuTabSelected(int menuItemId)
     {
       switch (menuItemId)
       {
@@ -112,6 +126,27 @@ namespace Inject.Activities
     public void OnMenuTabReSelected(int menuItemId)
     {
       //throw new NotImplementedException();
+    }
+
+    Android.Support.V4.Content.Loader ILoaderCallbacks.OnCreateLoader(int id, Bundle args)
+    {
+      switch (id)
+      {
+        case (int)Loaders.ListLoader:
+          return new ListLoader(this);
+      }
+
+      throw new NotImplementedException();
+    }
+
+    public void OnLoadFinished(Android.Support.V4.Content.Loader loader, Java.Lang.Object data)
+    {
+      var response = (LoaderResponse<IEnumerable<ExampleEntities>>)data;
+    }
+
+    public void OnLoaderReset(Android.Support.V4.Content.Loader loader)
+    {
+      throw new NotImplementedException();
     }
   }
 }

@@ -13,6 +13,7 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Core.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Json.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Net.Http.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Runtime.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Xml.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/Unity.Abstractions.dll
@@ -47,7 +48,6 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.IO.Compression.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.IO.Compression.FileSystem.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.ComponentModel.Composition.dll
-/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Net.Http.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Runtime.InteropServices.RuntimeInformation.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Runtime.Serialization.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.ServiceModel.Internals.dll
@@ -59,6 +59,7 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Xml.Linq.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Xml.XPath.XDocument.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Diagnostics.Debug.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Threading.Tasks.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Threading.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Collections.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Collections.Concurrent.dll

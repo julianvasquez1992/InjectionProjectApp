@@ -39,22 +39,28 @@
     <Compile Include="Implements\Configuration.cs" />
     <Compile Include="Interfaces\IConfiguration.cs" />
     <Compile Include="Entities\SettingEntity.cs" />
+    <Compile Include="Interfaces\IGetdata.cs" />
+    <Compile Include="Implements\GetData.cs" />
+    <Compile Include="Entities\ExampleEntities.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Reference Include="Unity.Abstractions">
-      <HintPath>..\packages\Unity.5.7.3\lib\netstandard1.0\Unity.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Container">
-      <HintPath>..\packages\Unity.5.7.3\lib\netstandard1.0\Unity.Container.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ServiceLocation">
-      <HintPath>..\packages\Unity.5.7.3\lib\netstandard1.0\Unity.ServiceLocation.dll</HintPath>
-    </Reference>
     <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
       <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\netstandard1.1\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\portable-net45+win8+wp8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="CommonServiceLocator">
-      <HintPath>..\packages\CommonServiceLocator.2.0.3\lib\netstandard1.0\CommonServiceLocator.dll</HintPath>
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard1.0\CommonServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Abstractions">
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard1.0\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container">
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard1.0\Unity.Container.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ServiceLocation">
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard1.0\Unity.ServiceLocation.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -67,5 +73,4 @@
     <Folder Include="Entities\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
-  <Import Project="..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets')" />
 </Project>

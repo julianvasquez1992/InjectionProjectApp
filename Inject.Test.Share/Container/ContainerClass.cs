@@ -22,6 +22,7 @@ namespace Inject.Test.Share.Container
       Container.RegisterType<ILogin, Login>(new ContainerControlledLifetimeManager());
       //Container.RegisterType<ILogin, Login>();
       Container.RegisterType<IConfiguration, Configuration>();
+      Container.RegisterType<IGetdata, GetData>();
     }
   }
 }

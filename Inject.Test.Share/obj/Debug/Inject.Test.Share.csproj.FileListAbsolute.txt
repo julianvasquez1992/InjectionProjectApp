@@ -1,14 +1,16 @@
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Inject.Test.Share.dll
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Inject.Test.Share.pdb
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/CommonServiceLocator.dll
+/Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Newtonsoft.Json.dll
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/System.Runtime.InteropServices.RuntimeInformation.dll
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Unity.Abstractions.dll
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Unity.Container.dll
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Unity.ServiceLocation.dll
+/Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Newtonsoft.Json.xml
+/Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/CommonServiceLocator.pdb
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Unity.Abstractions.pdb
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Unity.Container.pdb
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Debug/Unity.ServiceLocation.pdb
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.csproj.CoreCompileInputs.cache
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.dll
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.pdb
-/Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.csprojResolveAssemblyReference.cache

@@ -11,7 +11,8 @@ using Android.Runtime;
 using Android.Util;
 using Android.Views;
 using Android.Widget;
-using Fragment = Android.Support.V4.App.Fragment; 
+using Java.Lang;
+using Fragment = Android.Support.V4.App.Fragment;
 
 namespace Inject.Fragments
 {
@@ -28,20 +29,16 @@ namespace Inject.Fragments
       base.OnCreate(savedInstanceState);
     }
 
-    public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
+		public override View OnCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState)
     {
       // Use this to return your custom view for this Fragment
-       return inflater.Inflate(Resource.Layout.ListLayout, container, false);
+      return inflater.Inflate(Resource.Layout.ListLayout, container, false);
     }
 
-		public override void OnViewCreated(View view, Bundle savedInstanceState)
+    public override void OnViewCreated(View view, Bundle savedInstanceState)
 		{
 			base.OnViewCreated(view, savedInstanceState);
-
-      CancellationTokenSource cancellationToken;
-
-
-
 		}
+
 	}
 }

@@ -28,6 +28,7 @@
     <WarningLevel>4</WarningLevel>
     <AndroidLinkMode>None</AndroidLinkMode>
     <JavaMaximumHeapSize></JavaMaximumHeapSize>
+    <AndroidHttpClientHandlerType>Xamarin.Android.Net.AndroidClientHandler</AndroidHttpClientHandlerType>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -107,27 +108,28 @@
     <Reference Include="Newtonsoft.Json">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\netstandard2.0\Newtonsoft.Json.dll</HintPath>
     </Reference>
-    <Reference Include="CommonServiceLocator">
-      <HintPath>..\packages\Unity.5.8.4\lib\netstandard2.0\CommonServiceLocator.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Abstractions">
-      <HintPath>..\packages\Unity.5.8.4\lib\netstandard2.0\Unity.Abstractions.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Container">
-      <HintPath>..\packages\Unity.5.8.4\lib\netstandard2.0\Unity.Container.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.ServiceLocation">
-      <HintPath>..\packages\Unity.5.8.4\lib\netstandard2.0\Unity.ServiceLocation.dll</HintPath>
-    </Reference>
     <Reference Include="Xamarin.Android.Support.CustomTabs">
       <HintPath>..\packages\Xamarin.Android.Support.CustomTabs.27.0.2\lib\MonoAndroid81\Xamarin.Android.Support.CustomTabs.dll</HintPath>
-    </Reference>
-    <Reference Include="Xamarin.Auth">
-      <HintPath>..\packages\Xamarin.Auth.1.6.0.1\lib\MonoAndroid10\Xamarin.Auth.dll</HintPath>
     </Reference>
     <Reference Include="System.Json" />
     <Reference Include="AndroidAltBeaconLibrary">
       <HintPath>..\packages\AndroidAltBeaconLibrary.2.7.0\lib\AndroidAltBeaconLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http" />
+    <Reference Include="CommonServiceLocator">
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard2.0\CommonServiceLocator.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Abstractions">
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard2.0\Unity.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Container">
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard2.0\Unity.Container.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ServiceLocation">
+      <HintPath>..\packages\Unity.5.8.6\lib\netstandard2.0\Unity.ServiceLocation.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Auth">
+      <HintPath>..\packages\Xamarin.Auth.1.6.0.2\lib\MonoAndroid10\Xamarin.Auth.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
@@ -144,6 +146,8 @@
     <Compile Include="ViewHolders\SettingViewHolder.cs" />
     <Compile Include="Fragments\BeaconsFragment.cs" />
     <Compile Include="Fragments\ListFragment.cs" />
+    <Compile Include="Loaders\ListLoader.cs" />
+    <Compile Include="Utitlities\LoaderResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -219,6 +223,8 @@
     <Folder Include="Resources\menu\" />
     <Folder Include="Adapters\" />
     <Folder Include="ViewHolders\" />
+    <Folder Include="Loaders\" />
+    <Folder Include="Utitlities\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Inject.Test.Share\Inject.Test.Share.csproj">
