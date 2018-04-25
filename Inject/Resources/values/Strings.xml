@@ -11,4 +11,10 @@
   <string name="OkButton">OK</string>
   <string name="Configuration">Settings</string>
   <string name="MessageTest">This is a message text from app</string>
+  <string name="MyLocation">You are here</string>
+  <string name="FindLocation">I\'m calculing your location</string>
+  <string name="DestinationLocation">Destination</string>
+  <string name="Distance">Distance:</string>
+  <string name="OpenMap">Open map</string>
+  <string name="CalculatingPosition">Calculating position...</string>
 </resources>

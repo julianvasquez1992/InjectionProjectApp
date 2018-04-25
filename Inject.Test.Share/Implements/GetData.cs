@@ -15,8 +15,8 @@ namespace Inject.Test.Share.Implements
     public async Task<IEnumerable<ExampleEntities>> GetTestAsync()
     {
       httpClient = new HttpClient();
-      var uri = new Uri("https://jsonplaceholder.typicode.com/posts");
-      //var uri = "https://vikyproduction.azurewebsites.net/viky-rest-api-0.0.1-SNAPSHOT/public/api/event/51/agenda";
+      //var uri = new Uri("https://jsonplaceholder.typicode.com/posts");
+      var uri = "https://vikyproduction.azurewebsites.net/viky-rest-api-0.0.1-SNAPSHOT/public/api/event/51/agenda";
       IEnumerable<ExampleEntities> responseAgendaList;
       var request = new HttpRequestMessage(HttpMethod.Get, uri);
       string responseContent = string.Empty;
@@ -34,6 +34,17 @@ namespace Inject.Test.Share.Implements
       responseAgendaList = JsonConvert.DeserializeObject<IEnumerable<ExampleEntities>>(responseContent);
 
       return responseAgendaList;
+
+      //var uri = new Uri("https://jsonplaceholder.typicode.com/posts");
+      //var response = await httpClient.GetAsync(uri);
+      //if (response.IsSuccessStatusCode)
+      //{
+      //  var content = await response.Content.ReadAsStringAsync();
+      //  responseAgendaList = JsonConvert.DeserializeObject<IEnumerable<ExampleEntities>>(content);
+      //  return responseAgendaList;
+      //}
+
+      //throw new ArgumentNullException();
     }
   }
 }

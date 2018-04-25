@@ -19,6 +19,11 @@
     <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/26/jl/bin/classes.jar</Jar>
     <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/27/jl/bin/classes.jar</Jar>
     <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/28/jl/bin/classes.jar</Jar>
+    <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/29/jl/bin/classes.jar</Jar>
+    <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/31/jl/classes.jar</Jar>
+    <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/32/jl/classes.jar</Jar>
+    <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/33/jl/classes.jar</Jar>
+    <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/34/jl/classes.jar</Jar>
     <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/5/jl/okhttp.jar</Jar>
     <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/6/jl/okio.jar</Jar>
     <Jar>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/7/jl/picasso-2.5.2.jar</Jar>
@@ -33,13 +38,17 @@
     <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/25/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/26/jl/res</ResolvedResourceDirectory>
     <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/27/jl/res</ResolvedResourceDirectory>
-    <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/29/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/28/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/30/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/31/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/32/jl/res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/33/jl/res</ResolvedResourceDirectory>
   </ResolvedResourceDirectories>
   <ResolvedAssetDirectories>
     <ResolvedAssetDirectory>obj/Debug/lp/0/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/1/jl/assets</ResolvedAssetDirectory>
     <ResolvedAssetDirectory>obj/Debug/lp/25/jl/assets</ResolvedAssetDirectory>
-    <ResolvedAssetDirectory>obj/Debug/lp/29/jl/assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj/Debug/lp/30/jl/assets</ResolvedAssetDirectory>
   </ResolvedAssetDirectories>
   <ResolvedEnvironmentFiles />
   <ResolvedResourceDirectoryStamps>
@@ -52,6 +61,10 @@
     <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/25.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/26.stamp</ResolvedResourceDirectoryStamp>
     <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/27.stamp</ResolvedResourceDirectoryStamp>
-    <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/29.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/28.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/30.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/31.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/32.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>/Users/julian/Projects/InjectContainer/Inject/obj/Debug/lp/33.stamp</ResolvedResourceDirectoryStamp>
   </ResolvedResourceDirectoryStamps>
 </Paths>

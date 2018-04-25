@@ -82,8 +82,8 @@ namespace Inject.Activities
       bottomBar.MapColorForTab(2, Android.Graphics.Color.ParseColor("#143A5E"));
       bottomBar.MapColorForTab(3, Android.Graphics.Color.ParseColor("#143A5E"));
 
-      SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this).ForceLoad();
-      //SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this);
+      //SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this).ForceLoad();
+      SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this);
     }
 
 		public void OnMenuTabSelected(int menuItemId)
@@ -105,10 +105,7 @@ namespace Inject.Activities
           break;
 
         case Resource.Id.ConnectBeaconsButton:
-          SupportFragmentManager
-            .BeginTransaction()
-            .Replace(Resource.Id.FragmentContainer, beaconsFragment)
-            .Commit();
+
           break;
 
         case Resource.Id.SettingsButton:
@@ -139,14 +136,15 @@ namespace Inject.Activities
       throw new NotImplementedException();
     }
 
+
     public void OnLoadFinished(Android.Support.V4.Content.Loader loader, Java.Lang.Object data)
     {
-      var response = (LoaderResponse<IEnumerable<ExampleEntities>>)data;
+      //var response = (LoaderResponse<IEnumerable<ExampleEntities>>)data;
     }
 
     public void OnLoaderReset(Android.Support.V4.Content.Loader loader)
     {
-      throw new NotImplementedException();
+      
     }
   }
 }

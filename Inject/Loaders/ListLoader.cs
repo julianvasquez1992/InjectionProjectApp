@@ -34,5 +34,15 @@ namespace Inject.Loaders
       return javaObject;
     }
 
-  }
+		protected override void OnStartLoading()
+		{
+      ForceLoad();
+		}
+
+		public override void DeliverResult(Java.Lang.Object data)
+		{
+			base.DeliverResult(data);
+		}
+
+	}
 }
