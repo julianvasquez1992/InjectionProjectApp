@@ -1,21 +1,11 @@
 ﻿<Properties StartupConfiguration="{3F54C36E-81AE-41D2-9B6E-0C116FE80804}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Inject/Loaders/ListLoader.cs">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="Inject/Activities/MainActivity.cs" Line="147" Column="1" />
-      <File FileName="Inject/Loaders/ListLoader.cs" Line="34" Column="48" />
-      <File FileName="../../LoadersFolder/AddressAccuracyTaskLoader.cs" Line="24" Column="63" />
-      <File FileName="../../LoadersFolder/AddressByLatLongTaskLoader.cs" Line="24" Column="78" />
-      <File FileName="../../LoadersFolder/AddressByPlaceTaskLoader.cs" Line="14" Column="5" />
-      <File FileName="../../LoadersFolder/AddressLocalTaskLoader.cs" Line="9" Column="1" />
-      <File FileName="../../LoadersFolder/AddressSugestionsActivity.cs" Line="349" Column="45" />
-      <File FileName="Inject.Test.Share/Entities/SettingEntity.cs" Line="1" Column="1" />
-      <File FileName="Inject.Test.Share/Implements/GetData.cs" Line="36" Column="1" />
-      <File FileName="Inject/Utitlities/LoaderResponse.cs" Line="26" Column="4" />
-      <File FileName="Inject/Properties/AndroidManifest.xml" Line="7" Column="12" />
-      <File FileName="Inject/Activities/LoginActivity.cs" Line="73" Column="1" />
+      <File FileName="Inject/Activities/MapActivity.cs" Line="112" Column="1" />
+      <File FileName="Inject/Resources/values/Strings.xml" Line="20" Column="13" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/MainActivity.cs" relfile="Inject/MainActivity.cs" line="22" column="1" />
@@ -27,19 +17,13 @@
       <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/WorkersFragment/WorkerFragment.cs" relfile="Inject/WorkersFragment/WorkerFragment.cs" line="32" column="1" />
       <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Fragments/ListFragment.cs" relfile="Inject/Fragments/ListFragment.cs" line="55" column="1" />
       <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/WorkersFragment/WorkerFragment.cs" relfile="Inject/WorkersFragment/WorkerFragment.cs" line="55" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Loaders/ListLoader.cs" relfile="Inject/Loaders/ListLoader.cs" line="27" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MainActivity.cs" relfile="Inject/Activities/MainActivity.cs" line="146" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Loaders/ListLoader.cs" relfile="Inject/Loaders/ListLoader.cs" line="46" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Loaders/ListLoader.cs" relfile="Inject/Loaders/ListLoader.cs" line="44" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject.Test.Share/Implements/GetData.cs" relfile="Inject.Test.Share/Implements/GetData.cs" line="24" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Loaders/ListLoader.cs" relfile="Inject/Loaders/ListLoader.cs" line="34" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Loaders/ListLoader.cs" relfile="Inject/Loaders/ListLoader.cs" line="37" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Loaders/ListLoader.cs" relfile="Inject/Loaders/ListLoader.cs" line="37" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject.Test.Share/Implements/GetData.cs" relfile="Inject.Test.Share/Implements/GetData.cs" line="34" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject.Test.Share/Implements/GetData.cs" relfile="Inject.Test.Share/Implements/GetData.cs" line="26" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MapActivity.cs" relfile="Inject/Activities/MapActivity.cs" line="144" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MapActivity.cs" relfile="Inject/Activities/MapActivity.cs" line="192" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MapActivity.cs" relfile="Inject/Activities/MapActivity.cs" line="258" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Resources/layout/HomeLayout.axml" relfile="Inject/Resources/layout/HomeLayout.axml" line="26" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Inject AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.33006f5a4ac4a3ff" AndroidDesignerPreferredTheme="CustomTheme" />
+  <MonoDevelop.Ide.ItemProperties.Inject AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.334955350804" AndroidDesignerPreferredTheme="CustomTheme" />
   <MultiItemStartupConfigurations />
 </Properties>
