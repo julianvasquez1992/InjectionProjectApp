@@ -1,0 +1,2 @@
+android.app.Application
+Container.Injection.InjectContainer

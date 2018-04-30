@@ -49,4 +49,48 @@
             </LinearLayout>
         </RelativeLayout>
     </android.support.v7.widget.CardView>
+    <android.support.v7.widget.CardView
+        android:id="@+id/FingerPrintCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:clickable="true"
+        android:focusable="true"
+        app:cardBackgroundColor="@color/ColorPrimary">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <ImageView
+                android:id="@+id/FingertPrintIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/fingerprint_black_48dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentLeft="true" />
+            <ImageView
+                android:id="@+id/FingertPrintBackIcon"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:src="@drawable/fingerprint_black_48dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/ContactsOverviewContactsIcon"
+                android:layout_toLeftOf="@+id/ContactsOverviewChevronIcon"
+                android:layout_margin="10dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:textSize="35dp"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+                    android:text="@string/FingerPrint" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
 </LinearLayout>

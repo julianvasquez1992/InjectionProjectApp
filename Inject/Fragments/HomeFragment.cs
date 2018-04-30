@@ -21,6 +21,7 @@ namespace Inject.Fragments
   {
 
     private CardView cardView;
+    private CardView fingerPrint;
 
     public static HomeFragment Newinstance()
     {
@@ -44,13 +45,21 @@ namespace Inject.Fragments
 		{
 			base.OnViewCreated(view, savedInstanceState);
       cardView = view.FindViewById<CardView>(Resource.Id.MapCardView);
+      fingerPrint = view.FindViewById<CardView>(Resource.Id.FingerPrintCardView);
 
       cardView.Click += CardView_Click;
+      fingerPrint.Click += FingerPrint_Click;
 		}
 
     void CardView_Click(object sender, EventArgs e)
     {
       var intent = MapActivity.NewIntent(Activity);
+      StartActivity(intent);
+    }
+
+    void FingerPrint_Click(object sender, EventArgs e)
+    {
+      var intent = FingerPrintActivity.NewInstance(Activity);
       StartActivity(intent);
     }
 

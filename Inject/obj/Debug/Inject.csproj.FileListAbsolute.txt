@@ -43,7 +43,6 @@
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Unity.Abstractions.pdb
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Unity.Container.pdb
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Unity.ServiceLocation.pdb
-/Users/julian/Projects/InjectContainer/Inject/obj/Debug/Inject.csprojResolveAssemblyReference.cache
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Basement.dll.stamp
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Tasks.dll.stamp
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/XbdMerge/Xamarin.GooglePlayServices.Base.dll.stamp
@@ -121,6 +120,12 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-xhdpi/location_black_48dp.png
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-xxhdpi/location_black_48dp.png
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-xxxhdpi/location_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-hdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-mdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-xhdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-xxhdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/drawable-xxxhdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/layout/fingerprintlayout.xml
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/R.cs.flag
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/uploadflags.txt
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Mono.Android.pdb

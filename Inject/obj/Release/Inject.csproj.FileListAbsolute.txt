@@ -122,9 +122,16 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/res/drawable-xxxhdpi/location_black_48dp.png
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/R.cs.flag
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/uploadflags.txt
+/Users/julian/Projects/InjectContainer/Inject/obj/Release/res/drawable-hdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Release/res/drawable-mdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Release/res/drawable-xhdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Release/res/drawable-xxhdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/obj/Release/res/drawable-xxxhdpi/fingerprint_black_48dp.png
+/Users/julian/Projects/InjectContainer/Inject/bin/Release/Inject.Test.Share.pdb
 /Users/julian/Projects/InjectContainer/Inject/bin/Release/Mono.Android.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/linksrc/Inject.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/linksrc/CommonServiceLocator.pdb
+/Users/julian/Projects/InjectContainer/Inject/obj/Release/linksrc/Inject.Test.Share.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/linksrc/Mono.Android.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/linksrc/Unity.Abstractions.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Release/linksrc/Unity.Container.pdb

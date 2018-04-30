@@ -165,6 +165,7 @@
     <Compile Include="Loaders\ListLoader.cs" />
     <Compile Include="Utitlities\LoaderResponse.cs" />
     <Compile Include="Activities\MapActivity.cs" />
+    <Compile Include="Activities\FingerPrintActivity.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
@@ -237,6 +238,12 @@
     <AndroidResource Include="Resources\Drawable-xhdpi\location_black_48dp.png" />
     <AndroidResource Include="Resources\Drawable-xxhdpi\location_black_48dp.png" />
     <AndroidResource Include="Resources\Drawable-xxxhdpi\location_black_48dp.png" />
+    <AndroidResource Include="Resources\Drawable-hdpi\fingerprint_black_48dp.png" />
+    <AndroidResource Include="Resources\Drawable-mdpi\fingerprint_black_48dp.png" />
+    <AndroidResource Include="Resources\Drawable-xhdpi\fingerprint_black_48dp.png" />
+    <AndroidResource Include="Resources\Drawable-xxhdpi\fingerprint_black_48dp.png" />
+    <AndroidResource Include="Resources\Drawable-xxxhdpi\fingerprint_black_48dp.png" />
+    <AndroidResource Include="Resources\layout\FingerPrintLayout.axml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />

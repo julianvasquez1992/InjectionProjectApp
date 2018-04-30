@@ -17,4 +17,9 @@
   <string name="Distance">Distance:</string>
   <string name="OpenMap">Open map</string>
   <string name="CalculatingPosition">Calculating position...</string>
+  <string name="FingerPrint">Fingerprint...</string>
+  <string name="NoHardware">No hardware</string>
+  <string name="IsReadFinger">The finger was read</string>
+  <string name="NotReadFinger">The finger wasnt read</string>
+  <string name="NoPermission">No permission</string>
 </resources>

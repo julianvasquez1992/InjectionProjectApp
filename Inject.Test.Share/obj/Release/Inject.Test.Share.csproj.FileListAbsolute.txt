@@ -12,3 +12,4 @@
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/bin/Release/Unity.ServiceLocation.pdb
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Release/Inject.Test.Share.csproj.CoreCompileInputs.cache
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Release/Inject.Test.Share.dll
+/Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Release/Inject.Test.Share.csprojResolveAssemblyReference.cache

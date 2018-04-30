@@ -14,3 +14,4 @@
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.csproj.CoreCompileInputs.cache
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.dll
 /Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.pdb
+/Users/julian/Projects/InjectContainer/Inject.Test.Share/obj/Debug/Inject.Test.Share.csprojResolveAssemblyReference.cache
