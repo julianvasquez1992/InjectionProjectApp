@@ -1,11 +1,14 @@
 ﻿<Properties StartupConfiguration="{3F54C36E-81AE-41D2-9B6E-0C116FE80804}|Default">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inject/Activities/FingerPrintActivity.cs">
     <Files>
-      <File FileName="Inject/Activities/MapActivity.cs" Line="112" Column="1" />
-      <File FileName="Inject/Resources/values/Strings.xml" Line="20" Column="13" />
+      <File FileName="Inject/Activities/MapActivity.cs" Line="23" Column="47" />
+      <File FileName="Inject/Resources/values/Strings.xml" Line="22" Column="50" />
+      <File FileName="Inject/Activities/FingerPrintActivity.cs" Line="115" Column="30" />
+      <File FileName="Inject/Fragments/HomeFragment.cs" Line="65" Column="5" />
+      <File FileName="Inject/Activities/LoginActivity.cs" Line="73" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/MainActivity.cs" relfile="Inject/MainActivity.cs" line="22" column="1" />
