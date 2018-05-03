@@ -128,6 +128,16 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/res/layout/fingerprintlayout.xml
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/R.cs.flag
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/uploadflags.txt
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.Core.dll
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.Interfaces.dll
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.Linq.dll
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.PlatformServices.dll
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Runtime.InteropServices.WindowsRuntime.dll
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.Interfaces.xml
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.Core.xml
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.Linq.xml
+/Users/julian/Projects/InjectContainer/Inject/bin/Debug/System.Reactive.PlatformServices.xml
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/Inject.csprojResolveAssemblyReference.cache
 /Users/julian/Projects/InjectContainer/Inject/bin/Debug/Mono.Android.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/linksrc/Inject.pdb
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/linksrc/CommonServiceLocator.pdb

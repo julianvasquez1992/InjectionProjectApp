@@ -12,9 +12,15 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/Square.Picasso.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Core.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.IO.Compression.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Json.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Net.Http.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Reactive.Core.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Reactive.Interfaces.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Reactive.Linq.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Reactive.PlatformServices.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Runtime.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Runtime.InteropServices.WindowsRuntime.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Xml.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/Unity.Abstractions.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/Unity.Container.dll
@@ -50,7 +56,6 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/Mono.Security.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Diagnostics.StackTrace.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Globalization.Extensions.dll
-/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.IO.Compression.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.IO.Compression.FileSystem.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.ComponentModel.Composition.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Runtime.InteropServices.RuntimeInformation.dll
@@ -74,3 +79,8 @@
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Runtime.Extensions.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Reflection.Extensions.dll
 /Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Reflection.Primitives.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Resources.ResourceManager.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Diagnostics.Tools.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Globalization.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.ComponentModel.dll
+/Users/julian/Projects/InjectContainer/Inject/obj/Debug/android/assets/System.Linq.Expressions.dll

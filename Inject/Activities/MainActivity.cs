@@ -19,7 +19,6 @@ using Unity;
 using BottomNavigationBar.Listeners;
 using Inject.Fragments;
 using Xamarin.Auth;
-using ILoaderCallbacks = Android.Support.V4.App.LoaderManager.ILoaderCallbacks;
 using Inject.Loaders;
 using Android.Support.V4.App;
 using Android.Support.V4.Content;
@@ -31,7 +30,7 @@ namespace Inject.Activities
 {
   [Activity(ScreenOrientation = Android.Content.PM.ScreenOrientation.Portrait,
            AlwaysRetainTaskState = true)]
-  public class MainActivity : AppCompatActivity, IOnMenuTabClickListener, ILoaderCallbacks
+  public class MainActivity : AppCompatActivity, IOnMenuTabClickListener
   {
     [Dependency]
     public ILogin Login { get; set; }
@@ -42,11 +41,8 @@ namespace Inject.Activities
     private SettingsFragment settingsFragment;
     private BeaconsFragment beaconsFragment;
     private Fragments.ListFragment listFragment;
-
-    private enum Loaders
-    {
-      ListLoader
-    }
+    private ListLoader listLoader;
+    private ExampleEntities lastItem;
 
     public static Intent NewIntent(Context caller)
     {
@@ -66,6 +62,7 @@ namespace Inject.Activities
       beaconsFragment = BeaconsFragment.Newinstance();
       settingsFragment = SettingsFragment.Newinstance();
       listFragment = Fragments.ListFragment.NewInstance();
+      listLoader = new ListLoader(this);
 
       Login = ContainerClass.Container.Resolve<ILogin>();
 
@@ -82,8 +79,7 @@ namespace Inject.Activities
       bottomBar.MapColorForTab(2, Android.Graphics.Color.ParseColor("#143A5E"));
       bottomBar.MapColorForTab(3, Android.Graphics.Color.ParseColor("#143A5E"));
 
-      //SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this).ForceLoad();
-      SupportLoaderManager.InitLoader((int)Loaders.ListLoader, null, this);
+      OnLoadData();
     }
 
 		public void OnMenuTabSelected(int menuItemId)
@@ -125,26 +121,19 @@ namespace Inject.Activities
       //throw new NotImplementedException();
     }
 
-    Android.Support.V4.Content.Loader ILoaderCallbacks.OnCreateLoader(int id, Bundle args)
+    private void OnLoadData()
     {
-      switch (id)
-      {
-        case (int)Loaders.ListLoader:
-          return new ListLoader(this);
-      }
-
-      throw new NotImplementedException();
+      listLoader.GetObservable().Subscribe(ItemsArrive, ItemsComplete);
     }
 
-
-    public void OnLoadFinished(Android.Support.V4.Content.Loader loader, Java.Lang.Object data)
+    private void ItemsArrive(ExampleEntities item)
     {
-      //var response = (LoaderResponse<IEnumerable<ExampleEntities>>)data;
+      this.lastItem = item;
     }
 
-    public void OnLoaderReset(Android.Support.V4.Content.Loader loader)
+    private void ItemsComplete()
     {
-      
+
     }
   }
 }

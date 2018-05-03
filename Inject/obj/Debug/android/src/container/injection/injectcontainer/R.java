@@ -3703,6 +3703,7 @@ containing a value of this type.
         public static final int MessageTest=0x7f080043;
         public static final int MyLocation=0x7f080044;
         public static final int NoHardware=0x7f08004b;
+        public static final int NoPermission=0x7f08004e;
         public static final int NotReadFinger=0x7f08004d;
         public static final int OkButton=0x7f080041;
         public static final int OpenMap=0x7f080048;
