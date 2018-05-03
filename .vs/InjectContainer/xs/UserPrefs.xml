@@ -1,32 +1,21 @@
 ﻿<Properties StartupConfiguration="{3F54C36E-81AE-41D2-9B6E-0C116FE80804}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Inject/Activities/FingerPrintActivity.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Inject/Loaders/ListLoader.cs">
     <Files>
-      <File FileName="Inject/Activities/MapActivity.cs" Line="23" Column="47" />
-      <File FileName="Inject/Resources/values/Strings.xml" Line="22" Column="50" />
-      <File FileName="Inject/Activities/FingerPrintActivity.cs" Line="115" Column="30" />
-      <File FileName="Inject/Fragments/HomeFragment.cs" Line="65" Column="5" />
-      <File FileName="Inject/Activities/LoginActivity.cs" Line="73" Column="1" />
+      <File FileName="Inject/Loaders/ListLoader.cs" Line="40" Column="1" />
+      <File FileName="Inject/Activities/MainActivity.cs" Line="125" Column="1" />
+      <File FileName="Inject.Test.Share/Implements/GetData.cs" Line="25" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/MainActivity.cs" relfile="Inject/MainActivity.cs" line="22" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/BaseActivity.cs" relfile="Inject/Activities/BaseActivity.cs" line="25" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Fragments/SettingsFragment.cs" relfile="Inject/Fragments/SettingsFragment.cs" line="82" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/LoginActivity.cs" relfile="Inject/Activities/LoginActivity.cs" line="73" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Fragments/ListFragment.cs" relfile="Inject/Fragments/ListFragment.cs" line="91" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/WorkersFragment/WorkerFragment.cs" relfile="Inject/WorkersFragment/WorkerFragment.cs" line="37" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/WorkersFragment/WorkerFragment.cs" relfile="Inject/WorkersFragment/WorkerFragment.cs" line="32" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Fragments/ListFragment.cs" relfile="Inject/Fragments/ListFragment.cs" line="55" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/WorkersFragment/WorkerFragment.cs" relfile="Inject/WorkersFragment/WorkerFragment.cs" line="55" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MapActivity.cs" relfile="Inject/Activities/MapActivity.cs" line="144" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MapActivity.cs" relfile="Inject/Activities/MapActivity.cs" line="192" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MapActivity.cs" relfile="Inject/Activities/MapActivity.cs" line="258" column="1" />
-      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Resources/layout/HomeLayout.axml" relfile="Inject/Resources/layout/HomeLayout.axml" line="26" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MainActivity.cs" relfile="Inject/Activities/MainActivity.cs" line="129" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject.Test.Share/Implements/GetData.cs" relfile="Inject.Test.Share/Implements/GetData.cs" line="25" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Activities/MainActivity.cs" relfile="Inject/Activities/MainActivity.cs" line="124" column="1" />
+      <Breakpoint file="/Users/julian/Projects/InjectContainer/Inject/Loaders/ListLoader.cs" relfile="Inject/Loaders/ListLoader.cs" line="39" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Inject AndroidDesignerPreferredDevice="Nexus 4" PreferredExecutionTarget="Android.334955350804" AndroidDesignerPreferredTheme="CustomTheme" />
+  <MonoDevelop.Ide.ItemProperties.Inject PreferredExecutionTarget="Android.334955350804" />
   <MultiItemStartupConfigurations />
 </Properties>
